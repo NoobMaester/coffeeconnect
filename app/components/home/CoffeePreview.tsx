@@ -62,13 +62,9 @@ export default function CoffeePreview() {
               </div>
 
               <div className="mt-5 flex items-center justify-around">
-                <h3 className="text-xl font-semibold">
-                  Murugo Coffee
-                </h3>
-
-                <span className="text-2xl font-bold text-white/60">
+                <h3 className="text-5xl font-semibold">
                   {product.size}
-                </span>
+                </h3>
               </div>
             </article>
           ))}
