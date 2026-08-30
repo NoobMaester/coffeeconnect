@@ -9,7 +9,7 @@
   --foreground: #1c211d;
   --primary: #315b3a;
   --accent: #c58b45;
-  --muted: #6f756f 
+  --muted: #6f756f;
 }
 
 html{
@@ -21,6 +21,7 @@ body{
   margin: 0;
   background: var(--background);
   color: var(--foreground);
+  overflow-x: hidden;
 }
 
 *{

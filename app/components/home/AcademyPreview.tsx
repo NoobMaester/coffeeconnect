@@ -59,7 +59,7 @@ export default function AcademyPreview() {
 
         {/* Image + courses */}
         <div className="mt-16 grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
-          <div className="relative min-h-420px overflow-hidden rounded-3xl">
+          <div className="relative min-h-105 overflow-hidden rounded-3xl">
             <Image
               src="/academy-training.jpg"
               alt="Coffee skills training"
