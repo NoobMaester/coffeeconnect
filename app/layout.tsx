@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Instrument_Sans } from "next/font/google";
 import "./globals.css";
 
-const instrumentSans = Instrument_Sans({ subsets: ["latin"], variable: "--font-instrument-sans" });
+const instrumentSans = Instrument_Sans({ subsets: ["latin"], variable: "--font-sans"});
 
 export const metadata: Metadata = {
   title: "Coffee Connect Center | From Farm to Impact",
