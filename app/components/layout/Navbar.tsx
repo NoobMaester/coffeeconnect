@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const navItems = [
   { label: "About", href: "#about" },
@@ -16,7 +17,7 @@ export default function Navbar() {
           href="/"
           className="text-lg font-semibold tracking-tight text-white"
         >
-          Coffee Connect Centre
+          <Image src="/ccc-logo.png" alt="Coffee Connect Centre" width={1664} height={1024} className="w-40 h-auto" priority />
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">

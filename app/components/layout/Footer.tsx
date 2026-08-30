@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const links = [
   { label: "About", href: "#about" },
@@ -19,7 +20,7 @@ export default function Footer() {
               href="/"
               className="text-xl font-semibold tracking-tight"
             >
-              Coffee Connect Centre
+              <Image src="/ccc-logo.png" alt="Coffee Connect Centre" width={1664} height={1024} className="w-48 h-auto" priority />
             </Link>
 
             <p className="mt-5 max-w-sm text-sm leading-6 text-white/45">
