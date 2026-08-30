@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import {motion} from "framer-motion";
 
 export default function Hero() {
   return (
@@ -19,7 +22,7 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 mx-auto flex min-h-screen max-w-7xl items-center px-6 pb-28 pt-32 lg:px-8">
-        <div className="max-w-4xl text-white">
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{duration: 0.8, ease: [0.22, 1, 0.36, 1]}} className="max-w-4xl text-white">
           <p className="mb-6 text-sm font-semibold uppercase tracking-[0.3em] text-white/80">
             Coffee Connect Centre
           </p>
@@ -62,7 +65,7 @@ export default function Hero() {
               Partner With Us
             </Link>
           </div>
-        </div>
+        </motion.div>
       </div>
 
       {/* Bottom scroll indicator */}
