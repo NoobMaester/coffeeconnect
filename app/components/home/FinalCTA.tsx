@@ -9,7 +9,7 @@ export default function FinalCTA() {
             Let&apos;s connect
           </p>
 
-          <h2 className="mt-5 text-5xl font-semibold tracking-tight sm:text-6xl lg:text-7xl">
+          <h2 className="mt-5 max-w-4xl text-[clamp(3rem,8vw,5.5rem)] font-semibold leading-[0.98] tracking-tight">
             Coffee connects everything we do.
           </h2>
 

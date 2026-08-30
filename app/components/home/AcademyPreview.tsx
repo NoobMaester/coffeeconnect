@@ -32,7 +32,7 @@ export default function AcademyPreview() {
               </span>
             </div>
 
-            <h2 className="mt-6 max-w-3xl text-5xl font-semibold tracking-tight text-[#1c211d] sm:text-6xl">
+            <h2 className="mt-6 max-w-3xl text-[clamp(2.8rem,7vw,4.5rem)] font-semibold leading-[1.02] tracking-tight text-[#1c211d]">
               Learn Coffee.
               <br />
               Build Skills.

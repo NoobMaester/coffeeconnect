@@ -23,7 +23,7 @@ export default function Partners() {
               Our partners
             </p>
 
-            <h2 className="mt-5 text-4xl font-semibold tracking-tight text-[#1c211d] sm:text-5xl">
+            <h2 className="mt-5 text-[clamp(2.4rem,6vw,4rem)] font-semibold leading-[1.05] tracking-tight text-[#1c211d]">
               Growing through collaboration.
             </h2>
           </div>

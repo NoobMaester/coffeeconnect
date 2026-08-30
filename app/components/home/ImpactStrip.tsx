@@ -24,11 +24,11 @@ const stats = [
 export default function ImpactStrip() {
   return (
     <section className="border-b border-black/10 bg-[#f8f5ef]">
-      <div className="mx-auto grid max-w-7xl grid-cols-2 divide-x divide-black/10 lg:grid-cols-5">
+      <div className="mx-auto grid max-w-7xl grid-cols-2 lg:grid-cols-5">
         {stats.map((stat) => (
           <div
             key={stat.label}
-            className="px-5 py-8 sm:px-8 sm:py-10"
+            className="border-b border-black/10 px-5 py-7 sm:px-8 sm:py-10 lg:border-b-0 lg:boerder-r"
           >
             <p className="text-3xl font-semibold tracking-tight text-[#315B3A] sm:text-4xl">
               {stat.value}

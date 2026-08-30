@@ -24,7 +24,7 @@ export default function Hero() {
             Coffee Connect Centre
           </p>
 
-          <h1 className="max-w-4xl text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl lg:text-8xl">
+          <h1 className="max-w-4xl text-[clamp(3rem,5vw,7rem)] font-semibold leading-[1.05] tracking-tight">
             From Farm.
             <br />
             To Skills.
@@ -34,13 +34,13 @@ export default function Hero() {
             To Impact.
           </h1>
 
-          <p className="mt-8 max-w-2xl text-base leading-7 text-white/80 sm:text-lg">
+          <p className="mt-7 max-w-2xl text-base leading-6 text-white/80 sm:mt-8 sm:leading-7 sm:text-lg">
             Coffee Connect Centre is transforming Rwanda&apos;s coffee sector
             through sustainable production, local value addition, practical
             skills development, and circular economy innovation.
           </p>
 
-          <div className="mt-10 flex flex-col gap-3 sm:flex-row">
+          <div className="mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row">
             <Link
               href="#coffee"
               className="rounded-full bg-white px-7 py-3.5 text-center text-sm font-semibold text-[#315B3A] transition hover:bg-white/90"

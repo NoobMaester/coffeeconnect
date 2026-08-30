@@ -30,7 +30,7 @@ export default function Ecosystem() {
             Our ecosystem
           </p>
 
-          <h2 className="mt-5 text-4xl font-semibold tracking-tight text-[#1c211d] sm:text-5xl lg:text-6xl">
+          <h2 className="mt-5 text-[clamp(2.4rem,6vw,4rem)] font-semibold leading -[1.05] tracking-tight text-[#1c211d]">
             Building an integrated coffee ecosystem.
           </h2>
 
@@ -45,7 +45,7 @@ export default function Ecosystem() {
           {journey.map((item) => (
             <div
               key={item.number}
-              className="bg-[#f8f5ef] p-7 sm:p-8 lg:p-10"
+              className="bg-[#f8f5ef] p-6 sm:p-8 lg:p-10"
             >
               <span className="text-sm font-medium text-black/30">
                 {item.number}
