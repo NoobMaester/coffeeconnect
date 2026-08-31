@@ -8,8 +8,8 @@ import CoffeePreview from "./components/home/CoffeePreview";
 import AcademyPreview from "./components/home/AcademyPreview";
 import Impact from "./components/home/Impact";
 import Partners from "./components/home/Partners";
-import FinalCTA from "./components/home/FinalCTA";
 import Footer from "./components/layout/Footer";
+import Contact from "./components/home/Contact";
 
 export default function Home() {
   return (
@@ -25,9 +25,8 @@ export default function Home() {
         <AcademyPreview />
         <Impact />
         <Partners />
-        <FinalCTA />
+        <Contact />
       </main>
-
       <Footer />
     </>
   );
