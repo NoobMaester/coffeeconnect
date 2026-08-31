@@ -5,7 +5,7 @@ import "./globals.css";
 const instrumentSans = Instrument_Sans({ subsets: ["latin"], variable: "--font-sans"});
 
 export const metadata: Metadata = {
-  title: "Coffee Connect Center | From Farm to Impact",
+  title: "Coffee Connect Centre | From Farm to Impact",
   description: "CCC connects farming, skills, value addition, people and markets to create a sustainable coffee ecosystem that benefits all stakeholders.",
 };
 
