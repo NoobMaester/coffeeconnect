@@ -1,3 +1,7 @@
+"use client"
+
+import { motion } from "framer-motion";
+
 const partnerGroups = [
   {
     title: "Public Institutions & Civil Society",
@@ -35,15 +39,21 @@ export default function Partners() {
                   {group.title}
                 </p>
 
-                <div className="mt-6 grid grid-cols-2 border-l border-t border-black/10 sm:grid-cols-3">
-                  {group.partners.map((partner) => (
-                    <div
-                      key={partner}
-                      className="flex min-h-24 items-center border-b border-r border-black/10 p-5 text-sm font-medium text-black/65"
-                    >
-                      {partner}
-                    </div>
-                  ))}
+                <div className="relative mt-6 overflow-hidden">
+                  <motion.div
+                    className="flex w-max"
+                    animate={{ x: ["0%", "-50%"] }}
+                    transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
+                  >
+                    {[...group.partners, ...group.partners].map((partner, index) => (
+                      <div
+                        key={`${partner}-${index}`}
+                        className="flex h-24 w-48 shrink-0 items-center justify-center border border-black/10 px-6 text-sm font-medium text-black/65"
+                      >
+                        {partner}
+                      </div>
+                    ))}
+                  </motion.div>
                 </div>
               </div>
             ))}
