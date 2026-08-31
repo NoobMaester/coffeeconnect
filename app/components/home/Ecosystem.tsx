@@ -19,7 +19,7 @@ const journey = [
   {
     number: "04",
     title: "Cup",
-    description: "Connecting quality coffee with the market.",
+    description: "Connecting high quality coffee with the market.",
   },
 ];
 

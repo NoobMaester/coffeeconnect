@@ -11,7 +11,7 @@ export default function ServiceCTA({
   title = "Let's grow the coffee ecosystem together.",
   description = "Explore more of our work or get in touch to discuss opportunities for collaboration.",
   primaryLabel = "Partner With Us",
-  primaryHref = "/contact",
+  primaryHref = "/#contact",
 }: ServiceCTAProps) {
   return (
     <section className="bg-white px-6 py-20 sm:py-24 lg:px-8 lg:py-32">
