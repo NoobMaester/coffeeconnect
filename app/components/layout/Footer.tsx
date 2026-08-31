@@ -82,9 +82,15 @@ export default function Footer() {
           <p>© {new Date().getFullYear()} Coffee Connect Centre Ltd.</p>
 
           <div className="flex gap-5">
-            <span>Facebook</span>
-            <span>Instagram</span>
-            <span>LinkedIn</span>
+            <Link href="#" className="transition hover:text-white">
+              Facebook
+            </Link>
+            <Link href="#" className="transition hover:text-white">
+              Instagram
+            </Link>
+            <Link href="#" className="transition hover:text-white">
+              LinkedIn
+            </Link>
           </div>
         </div>
       </div>

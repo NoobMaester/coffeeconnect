@@ -22,22 +22,34 @@ export default function ServiceStats({
             {title}
           </h2>
         </Reveal>
+        {stats.length === 1 ? (
+          <div className="mt-14 max-w-md border border-white/15 p-10">
+            <Reveal>
+              <p className="text-6xl font-semibold tracking-tighter sm:text-7xl lg:text-8xl">
+                {stats[0].value}
+              </p>
 
-        <div className="mt-14 grid grid-cols-2 border-l border-t border-white/15 sm:grid-cols-3 lg:grid-cols-4">
-          {stats.map((stat, index) => (
-            <Reveal key={stat.label} delay={index * 0.05}>
-              <div className="h-full border-b border-r border-white/15 p-6 sm:p-8 lg:p-10">
-                <p className="text-3xl font-semibold tracking-tight sm:text-4xl">
-                  {stat.value}
-                </p>
-
-                <p className="mt-3 text-xs uppercase leading-5 tracking-wide text-white/50">
-                  {stat.label}
-                </p>
-              </div>
+              <p className="mt-4 text-sm uppercase tracking-[0.2em] text-white/50">
+                {stats[0].label}
+              </p>
             </Reveal>
-          ))}
-        </div>
+          </div>
+        ) : (
+          <div className="mt-14 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4">
+            {stats.map((stat, index) => (
+              <Reveal key={stat.label} delay={index * 0.05}>
+                <div className="h-full border border-white/15 p-6 sm:p-8 lg:p-10">
+                  <p className="text-3xl font-semibold tracking-tight sm:text-4xl">
+                    {stat.value}
+                  </p>
+
+                  <p className="mt-3 text-xs uppercase leading-5 tracking-wide text-white/50">
+                    {stat.label}
+                  </p>
+                </div>
+              </Reveal>
+            ))}
+          </div>)}
       </div>
     </section>
   );

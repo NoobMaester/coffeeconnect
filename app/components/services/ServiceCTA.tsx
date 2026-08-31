@@ -39,7 +39,7 @@ export default function ServiceCTA({
               </Link>
 
               <Link
-                href="/what-we-do"
+                href="/#what-we-do"
                 className="rounded-full border border-white/20 px-6 py-3.5 text-center text-sm font-semibold transition hover:bg-white hover:text-[#1c211d]"
               >
                 Explore More Services

@@ -30,7 +30,7 @@ export default function ServiceHero({
       <div className="relative mx-auto flex min-h-[75vh] max-w-7xl items-end px-6 pb-16 pt-32 lg:px-8 lg:pb-24">
         <div className="max-w-4xl">
           <Link
-            href="/what-we-do"
+            href="/#what-we-do"
             className="mb-8 inline-flex text-sm font-medium text-white/65 transition hover:text-white"
           >
             ← What We Do
@@ -40,7 +40,7 @@ export default function ServiceHero({
             {eyebrow}
           </p>
 
-          <h1 className="mt-5 max-w-4xl text-[clamp(3rem,8vw,6.5rem)] font-semibold leading-[0.94] tracking-[-0.05em]">
+          <h1 className="mt-5 max-w-4xl text-[clamp(3rem,8vw,6.5rem)] font-semibold leading-[0.94] tracking-tigher">
             {title}
           </h1>
 

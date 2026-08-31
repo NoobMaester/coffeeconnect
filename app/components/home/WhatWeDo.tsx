@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Reveal from "../ui/Reveal";
 
 const services = [
@@ -8,6 +9,7 @@ const services = [
     description:
       "Promoting organic and climate-smart practices for sustainable coffee production and improved farm productivity.",
     image: "/coffee-farm.jpg",
+    link: "/what-we-do/coffee-production",
   },
   {
     number: "02",
@@ -15,6 +17,7 @@ const services = [
     description:
       "Transforming Rwandan coffee locally through quality-focused processing and roasting.",
     image: "/coffee-roasting.jpg",
+    link: "/what-we-do/roasting-value-addition",
   },
   {
     number: "03",
@@ -22,6 +25,7 @@ const services = [
     description:
       "Supporting farmers and cooperatives through training, quality improvement, skills and market connections.",
     image: "/coffee-farmers.jpg",
+    link: "/what-we-do/farmers-cooperatives",
   },
   {
     number: "04",
@@ -29,6 +33,7 @@ const services = [
     description:
       "Turning coffee residues into new products, income streams, skills and employment opportunities.",
     image: "/coffee-waste.jpg",
+    link: "/what-we-do/circular-economy",
   },
 ];
 
@@ -91,9 +96,9 @@ export default function WhatWeDo() {
                     {service.description}
                   </p>
 
-                  <div className="mt-6 text-sm font-semibold text-[#315B3A]">
+                  <Link href={service.link} className="mt-6 text-sm font-semibold text-[#315B3A]">
                     Learn more →
-                  </div>
+                  </Link>
                 </div>
               </article>
             </Reveal>
