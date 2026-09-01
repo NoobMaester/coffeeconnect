@@ -8,7 +8,7 @@ const services = [
     title: "Coffee Production",
     description:
       "Promoting organic and climate-smart practices for sustainable coffee production and improved farm productivity.",
-    image: "/coffee-farm.jpg",
+    image: "/coffee-farm.webp",
     link: "/what-we-do/coffee-production",
   },
   {

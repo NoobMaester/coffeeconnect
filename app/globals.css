@@ -10,7 +10,7 @@
 }
 
 html{
-  scroll-behavior: smooth;
+  data-scroll-behavior: smooth;
 }
 
 body{
@@ -20,9 +20,9 @@ body{
   overflow-x: hidden;
   font-family: var(--font-sans);
 }
-section{
+/* section{
   scroll-margin-top: 2rem;
-}
+} */
 
 *{
   box-sizing: border-box;

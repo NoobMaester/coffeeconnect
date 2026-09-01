@@ -11,7 +11,7 @@ export default function CoffeeProductionPage() {
         eyebrow="What We Do"
         title="Organic & Climate-Smart Coffee Production"
         description="We promote sustainable coffee production through organic and climate-smart practices that support healthier farms and improved productivity."
-        image="/coffee-farm.jpg"
+        image="/coffee-farm.webp"
       />
 
       <ServiceIntro
