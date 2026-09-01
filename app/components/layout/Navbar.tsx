@@ -30,7 +30,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop navigation */}
-        <nav className="hidden items-center gap-7 md:flex">
+        <nav className="hidden items-center gap-7 lg:flex">
           {navItems.map((item) => (
             <Link
               key={item.href}
@@ -55,7 +55,7 @@ export default function Navbar() {
           aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
           onClick={() => setOpen((value) => !value)}
-          className="relative z-50 flex h-11 w-11 items-center justify-center rounded-full border border-white/30 text-white md:hidden"
+          className="relative z-50 flex h-11 w-11 items-center justify-center rounded-full border border-white/30 text-white lg:hidden"
         >
           <span className="sr-only">
             {open ? "Close menu" : "Open menu"}
@@ -87,7 +87,7 @@ export default function Navbar() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -12 }}
               transition={{ duration: 0.2 }}
-              className="absolute left-4 right-4 top-3 rounded-3xl bg-[#1c211d] p-6 pt-20 shadow-2xl md:hidden"
+              className="absolute left-4 right-4 top-3 rounded-3xl bg-[#1c211d] p-6 pt-20 shadow-2xl lg:hidden"
             >
               <nav className="flex flex-col">
                 {navItems.map((item, index) => (

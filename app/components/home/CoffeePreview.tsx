@@ -4,15 +4,15 @@ import Link from "next/link";
 const products = [
   {
     size: "250g",
-    image: "/coffee-250g.jpg",
+    image: "/murugo-250.png",
   },
   {
     size: "500g",
-    image: "/coffee-500g.jpg",
+    image: "/murugo-250.png",
   },
   {
     size: "1kg",
-    image: "/coffee-1kg.jpg",
+    image: "/murugo-250.png",
   },
 ];
 

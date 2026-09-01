@@ -19,29 +19,29 @@ const partnerGroups = [
 
 export default function Partners() {
   return (
-    <section className="bg-[#f8f5ef] px-6 py-24 lg:px-8 lg:py-32">
+    <section className=" bg-[#f8f5ef] px-6 py-24 lg:px-8 lg:py-32">
       <div className="mx-auto max-w-7xl">
         <div className="grid gap-10 lg:grid-cols-[0.7fr_1fr]">
-          <div>
+          <div className="">
             <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#315B3A]">
               Our partners
             </p>
 
-            <h2 className="mt-5 text-[clamp(2.4rem,6vw,4rem)] font-semibold leading-[1.05] tracking-tight text-[#1c211d]">
+            <h2 className="mt-5 max-w-xl text-[clamp(2.4rem,6vw,4rem)] font-semibold leading-[1.05] tracking-tight text-[#1c211d]">
               Growing through collaboration.
             </h2>
           </div>
 
-          <div>
+          <div className="min-w-0">
             {partnerGroups.map((group) => (
               <div key={group.title}>
                 <p className="text-sm font-medium text-black/45">
                   {group.title}
                 </p>
 
-                <div className="relative mt-6 overflow-hidden">
+                <div className="relative mt-6 w-full min-w-0 overflow-hidden">
                   <motion.div
-                    className="flex w-max"
+                    className="flex w-max will-change-transform"
                     animate={{ x: ["0%", "-50%"] }}
                     transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
                   >
