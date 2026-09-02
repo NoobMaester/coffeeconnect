@@ -15,7 +15,7 @@ export async function POST(request: Request) {
         }
 
         const { data, error } = await resend.emails.send({
-            from: "CoffeeConnect <onboarding@resend.dev>",
+            from: "CoffeeConnectCentre <onboarding@resend.dev>",
             to: [process.env.CONTACT_EMAIL!],
             replyTo: email,
             subject: `New form submission from ${name}`,
