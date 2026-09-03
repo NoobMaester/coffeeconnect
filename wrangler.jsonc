@@ -2,6 +2,12 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "main": ".open-next/worker.js",
   "name": "coffeeconnect",
+  "routes": [
+    {
+      "pattern": "coffeeconnectcentre.com",
+      "custom_domain": true
+    }
+  ],
   "compatibility_date": "2026-08-28",
   "compatibility_flags": ["global_fetch_strictly_public"],
   "assets": {
@@ -22,6 +28,6 @@
   },
 
   "vars": {
-    "CONTACT_EMAIL": "joshstilez@gmail.com",
+    "CONTACT_EMAIL": "info@coffeeconnectcentre.com",
   },
 }

@@ -15,13 +15,13 @@ export async function POST(request: Request) {
         }
 
         const { data, error } = await resend.emails.send({
-            from: "CoffeeConnectCentre <onboarding@resend.dev>",
+            from: "CoffeeConnectCentre <info@coffeeconnectcentre.com>",
             to: [process.env.CONTACT_EMAIL!],
             replyTo: email,
-            subject: `New form submission from ${name}`,
+            subject: `New Message from ${name}`,
             html: `
                 <div style="font-family: Arial, sans-serif; line-height: 1.6;">
-                    <h2>Submission Message</h2>
+                    <h2>Message</h2>
 
                     <p><strong>Name:</strong> ${name}</p>
                     <p><strong>Email:</strong> ${email}</p>

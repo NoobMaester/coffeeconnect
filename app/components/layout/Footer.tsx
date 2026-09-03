@@ -69,10 +69,10 @@ export default function Footer() {
               </a>
 
               <a
-                href="mailto:coffeeconnectcentreltd@gmail.com"
+                href="mailto:info@coffeeconnectcentre.com"
                 className="block transition hover:text-white"
               >
-                coffeeconnectcentreltd@gmail.com
+                info@coffeeconnectcentre.com
               </a>
             </div>
           </div>
