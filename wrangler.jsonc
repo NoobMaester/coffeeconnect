@@ -3,23 +3,25 @@
   "main": ".open-next/worker.js",
   "name": "coffeeconnect",
   "compatibility_date": "2026-08-28",
-  "compatibility_flags": [
-    "global_fetch_strictly_public"
-  ],
+  "compatibility_flags": ["global_fetch_strictly_public"],
   "assets": {
     "directory": ".open-next/assets",
-    "binding": "ASSETS"
+    "binding": "ASSETS",
   },
   "services": [
     {
       "binding": "WORKER_SELF_REFERENCE",
-      "service": "coffeeconnect"
-    }
+      "service": "coffeeconnect",
+    },
   ],
   "images": {
-    "binding": "IMAGES"
+    "binding": "IMAGES",
   },
   "observability": {
-    "enabled": true
-  }
+    "enabled": true,
+  },
+
+  "vars": {
+    "CONTACT_EMAIL": "joshstilez@gmail.com",
+  },
 }
