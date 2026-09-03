@@ -35,9 +35,8 @@ npm run build
 ## Project Structure
 
 ```text
-src/
-├── app/
-├── components/
+app/
+├── components
 └── ...
 ```
 
